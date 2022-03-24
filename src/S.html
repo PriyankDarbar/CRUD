@@ -1,0 +1,21 @@
+onChange={handleChange}
+value={updateData.lastname}
+
+checked={updateData.gender === "Male"}
+
+value={updateData.country}
+<!-- Form-gender -->
+
+<div className="input-group">
+    <label className="label">Gender</label>
+    <div className="p-t-10">
+        <label className="radio-container m-r-45">Male
+            <input type="radio" checked="checked" name="gender"/>
+            <span className="checkmark"></span>
+        </label>
+        <label className="radio-container">Female
+            <input type="radio" name="gender"/>
+            <span className="checkmark"></span>
+        </label>
+    </div>
+</div>
